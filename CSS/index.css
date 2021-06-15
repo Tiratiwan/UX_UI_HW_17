@@ -6,29 +6,35 @@
 .logo{
     width: 23%;
     padding: 1%;
-    text-align: center;
+    
 }
-
 
 nav{
     width: 73%;
     padding: 1%;
 }
+nav, ul{
+    width: 50%;
+    margin-left: auto;
+}
 
 .heroImg{
  height: 600px;
  padding: 25px;
+
 }
 
 .content{
     width: 500px;
     margin: 0 auto;
+    height: 1200px;
 }
 
 footer{
     background-color: #FBE5DB;
-    width: 98%;
-    padding: auto;
+    width: 100%;
+    padding: 25px;
+    margin-top: 20px;
    
 }
 
@@ -36,7 +42,18 @@ ul{
     display: inline-block;
     vertical-align:top;
     padding: center;
-    width: 50%;
-    margin-left: auto;
+    font-family: sans-serif;
+    
+}
 
+il{padding: 10px;}
+
+p{font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+button{
+    color: rgb(196, 94, 111);
+    font-weight:bold;
+    background-color: #FBE5DB;
+    padding: 10px;
+    box-shadow: 5px 5px #f3be8c;
 }
