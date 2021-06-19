@@ -1,3 +1,5 @@
+้/* head, nav */
+       
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -15,6 +17,7 @@ nav{
 nav, ul{
     width: 50%;
     margin-left: 100px;
+    font-family: 'Chivo', sans-serif;
 }
 
 .heroImg{
@@ -25,7 +28,8 @@ nav, ul{
 .content{
     width: 500px;
     margin: 0 auto;
-    height: 1200px;
+    height: auto;
+    margin-top: 25px;
 }
 
 footer{
@@ -41,13 +45,13 @@ header {
     border-bottom: 3px solid #E7B5B5 ;
 }
 h1 {
-    font-family: 'Chivo';
+    font-family: 'Chivo', sans-serif;
     font-weight: bold;
     padding: auto;
     font-size: larger;
 }
 h2{
-    font-family: 'Chivo';
+    font-family: 'Chivo', sans-serif;
     font-weight: bold;
     padding: auto;
     font-size:large;
@@ -62,13 +66,11 @@ ul{
   
 }
 
-il p{
+il, p{
     padding: 10px;
-    font-family: 'Chivo';
+    font-family: 'Chivo', sans-serif;
 }
-il{
-    margin: 10px;
-}
+
 button{
     color: rgb(196, 94, 111);
     font-weight:bold;
@@ -76,13 +78,15 @@ button{
     padding: 10px;
     box-shadow: 5px 5px #f3be8c;
 }
-/* Row Style */
+/* Row Style, Projects section */
 
 .text {
-    background: rgba(94, 88, 81, 0.822);
+    background: rgba(173, 69, 69, 0.719);
     width: 100%;
     padding: 20px 40px;
-    color: white;}
+    color: white;
+    font-family: 'Chivo', sans-serif;
+}
 
 .row{
     display: flex;
